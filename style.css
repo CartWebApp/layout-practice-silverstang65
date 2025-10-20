@@ -1,0 +1,21 @@
+ul.nav {
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+height: 36px; line-height:30px;
+background: #383E4C;
+}
+ul.nav li {
+    border-right: 1px solid #383E4C;
+    float: left;
+}
+ul.nav a {
+    display:block;
+    padding 0 25px;
+    color: #383E4C;
+    text-decoration: none;
+}
+ul.nav a:hover 
+    ul.nav li.current a {
+    background: #49505F;
+    }
