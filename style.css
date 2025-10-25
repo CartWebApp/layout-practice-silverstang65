@@ -1,21 +1,40 @@
-ul.nav {
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+body {
     margin: 0;
-    padding: 10px;
-    list-style: none;
-height: 36px; line-height:30px;
-background: #383E4C;
+    padding: 0;
+    color: #808080;
+    font-family: 'Open Sans', sans-serif;
 }
-ul.nav li {
-    border-right: 1px solid #383E4C;
-    float: left;
+
+.navbar {
+    background-color: #808080;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
 }
-ul.nav a {
-    display:block;
-    padding 0 25px;
-    color: #383E4C;
+.navbar a {
+    color: #808080;
     text-decoration: none;
+    border: 1px white;
+    font-size: large;
+    font-weight: 600;
 }
-ul.nav a:hover 
-    ul.nav li.current a {
-    background: #49505F;
-    }
+
+.navbar a:hover {
+    background-color: #909090;
+}
+
+.hero {
+    background-image: url(layout-01-assets/img11.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: center
+    padding: 100px 20px;
+}
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
